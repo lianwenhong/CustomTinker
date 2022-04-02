@@ -1,2 +1,3 @@
 rootProject.name = "CustomTinker"
 include ':app'
+include ':resource'

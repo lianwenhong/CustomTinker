@@ -1,16 +1,30 @@
 package com.lianwenhong.customtinker;
 
 import android.app.Application;
+import android.content.Context;
+import android.content.pm.ApplicationInfo;
+import android.content.res.AssetManager;
+import android.content.res.Resources;
+import android.os.Build;
+import android.text.TextUtils;
+import android.util.ArrayMap;
+import android.util.Log;
 
 import java.io.File;
 import java.io.IOException;
+import java.lang.ref.WeakReference;
 import java.lang.reflect.Array;
 import java.lang.reflect.Field;
 import java.lang.reflect.InvocationTargetException;
 import java.lang.reflect.Method;
 import java.util.ArrayList;
 import java.util.Arrays;
+import java.util.Collection;
+import java.util.HashMap;
 import java.util.List;
+
+import static android.os.Build.VERSION.SDK_INT;
+import static android.os.Build.VERSION_CODES.KITKAT;
 
 public class HotFix {
     public static void installPatch(Application application, File patch) {
@@ -59,4 +73,48 @@ public class HotFix {
             e.printStackTrace();
         }
     }
+
+    public static void installResource(Application application, String resPath) throws ClassNotFoundException {
+        if (TextUtils.isEmpty(resPath)) {
+            return;
+        }
+
+        try {
+
+            // 得到ContextImpl
+            Class contextImplClz = Class.forName("android.app.ContextImpl");
+            Method getImplMethod = contextImplClz.getDeclaredMethod("getImpl", Context.class);
+            getImplMethod.setAccessible(true);
+            Object contextImpl = getImplMethod.invoke(application, application);
+
+            // 得到Context下的mPackageInfo
+            Field packageInfoField = contextImplClz.getDeclaredField("mPackageInfo");
+            packageInfoField.setAccessible(true);
+            Object packageInfo = packageInfoField.get(contextImpl);
+
+            // 得到mPackageInfo下的mResDir属性
+            Class loadedApkClz = Class.forName("android.app.LoadedApk");
+            Field resDirField = loadedApkClz.getDeclaredField("mResDir");
+            resDirField.setAccessible(true);
+
+            //替换掉LoadedApk中的mResDir属性
+            resDirField.set(packageInfo, resPath);
+
+            Log.e("lianwenhong", " >>> mResDir:" + resDirField.get(packageInfo));
+
+        } catch (NoSuchFieldException e) {
+            e.printStackTrace();
+        } catch (NoSuchMethodException e) {
+            e.printStackTrace();
+        } catch (IllegalAccessException e) {
+            e.printStackTrace();
+        } catch (ClassNotFoundException e) {
+            e.printStackTrace();
+        } catch (InvocationTargetException e) {
+            e.printStackTrace();
+        }
+
+    }
+
+
 }

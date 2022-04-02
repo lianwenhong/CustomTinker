@@ -5,6 +5,7 @@ import android.util.Log;
 import org.junit.Test;
 
 import java.lang.reflect.Field;
+import java.util.HashMap;
 
 import static org.junit.Assert.*;
 
@@ -16,7 +17,6 @@ import static org.junit.Assert.*;
 public class ExampleUnitTest {
     @Test
     public void addition_isCorrect() {
-
     }
 
 }
