@@ -294,4 +294,28 @@ public class HotFix {
 
         }
     }
+
+    // API <=27时可以直接使用这种方式来重构AssetManager就能避免一大堆的AssetManager反射，https://www.jb51.net/article/216170.htm#_label0
+    public static void installResource3(Context context, String patchResPath) throws InvocationTargetException, IllegalAccessException {
+        AssetManager assetManager = context.getAssets();
+
+        Method method = ReflectUtils.findMethod(assetManager, "addAssetPath", String.class);
+        if (method != null) {
+            if (0 == (Integer) method.invoke(assetManager, patchResPath)) {
+                throw new IllegalStateException("addAssetPath is faild");
+            }
+            Method initMethod = ReflectUtils.findMethod(assetManager, "init", Boolean.class);
+            Method destroyMethod = ReflectUtils.findMethod(assetManager, "destroy");
+
+            if (destroyMethod != null) {
+                destroyMethod.invoke(assetManager);
+                Log.e("lianwenhong", " >>> invoke AssetManager.destroy()");
+            }
+
+            if (initMethod != null) {
+                initMethod.invoke(assetManager, false);
+                Log.e("lianwenhong", " >>> invoke AssetManager.init(false)");
+            }
+        }
+    }
 }

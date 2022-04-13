@@ -1,7 +1,0 @@
-#Wed Apr 13 08:51:38 CST 2022
-base.1=/Users/lianwenhong/AndroidProjects/demos/CustomTinker/app/build/intermediates/dex/debug/mergeProjectDexDebug/classes.dex
-path.1=classes.dex
-base.0=/Users/lianwenhong/AndroidProjects/demos/CustomTinker/app/build/intermediates/dex/debug/mergeExtDexDebug/classes.dex
-renamed.1=classes2.dex
-renamed.0=classes.dex
-path.0=classes.dex

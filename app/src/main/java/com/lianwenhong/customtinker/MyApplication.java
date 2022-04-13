@@ -7,6 +7,7 @@ import java.io.FileOutputStream;
 import java.io.IOException;
 import java.io.InputStream;
 import java.io.OutputStream;
+import java.lang.reflect.InvocationTargetException;
 
 /**
  * 类加载机制的缓存操作：
@@ -39,14 +40,16 @@ public class MyApplication extends Application {
             HotFix.installPatch(this, patchFile);
 //            HotFix.installResource1(this, patchResource.getAbsolutePath());
             HotFix.installResource2(this, patchResource.getAbsolutePath());
-
+//            HotFix.installResource3(this, patchResource.getAbsolutePath());
         } catch (IOException e) {
             e.printStackTrace();
         } /*catch (ClassNotFoundException e) {
             e.printStackTrace();
         } */ catch (IllegalAccessException e) {
             e.printStackTrace();
-        }
+        }/* catch (InvocationTargetException e) {
+            e.printStackTrace();
+        }*/
     }
 
     private void copyFile(int id, File dest) throws IOException {
