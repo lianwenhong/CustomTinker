@@ -1,8 +1,6 @@
 package com.lianwenhong.customtinker;
 
 import android.app.Application;
-import android.content.Context;
-import android.util.Log;
 
 import java.io.File;
 import java.io.FileOutputStream;
@@ -11,8 +9,12 @@ import java.io.InputStream;
 import java.io.OutputStream;
 
 /**
+ * 类加载机制的缓存操作：
  * 之所以要在本类中做补丁包的安装是因为怕如果在后面的流程中做安装会造成有些带bug的类如果已经被系统加载的话，后续补丁包安装之后
  * 补丁包中的类得不到执行，因为类加载有缓存机制，系统会将加载过的类做一份内存缓存。
+ * <p>
+ * 关于生效时机：
+ * 因为本方案使用的是类加载过程中往dexElements前追加布丁包的方式实现，所以不支持实时生效，只能下次启动时生效。
  */
 public class MyApplication extends Application {
     @Override
@@ -35,11 +37,14 @@ public class MyApplication extends Application {
 
             // 安装补丁包
             HotFix.installPatch(this, patchFile);
-            HotFix.installResource(this, patchResource.getAbsolutePath());
+//            HotFix.installResource1(this, patchResource.getAbsolutePath());
+            HotFix.installResource2(this, patchResource.getAbsolutePath());
 
         } catch (IOException e) {
             e.printStackTrace();
-        } catch (ClassNotFoundException e) {
+        } /*catch (ClassNotFoundException e) {
+            e.printStackTrace();
+        } */ catch (IllegalAccessException e) {
             e.printStackTrace();
         }
     }

@@ -2,9 +2,10 @@ plugins {
     id 'com.android.application'
 }
 
-android {
-    compileSdkVersion 31
+//apply plugin: 'com.lianwenhong.packresource'
 
+android {
+    compileSdkVersion rootProject.ext.android['compileSdkVersion']
     defaultConfig {
         applicationId "com.lianwenhong.customtinker"
         minSdkVersion 21
@@ -25,6 +26,34 @@ android {
         sourceCompatibility JavaVersion.VERSION_1_8
         targetCompatibility JavaVersion.VERSION_1_8
     }
+
+
+}
+
+project.afterEvaluate {
+    tasks.matching {
+        it.name.startsWith('process') && it.name.endsWith('Resources')
+    }.each { task ->
+        task.doLast {
+            println "doLast >>>>>>>>>:"
+            it.getInputs().files.each {
+                println(it.name)
+                if (it.name.startsWith("classes")) {
+                    delete(it)
+                }
+            }
+//            delete("classes")
+//            delete("/build/intermediates/javac/*"){
+//                println(it)
+//            }
+//            FileTree tree = fileTree("/intermediates/javac")
+//            tree.each {
+//                println it
+//            }
+            it
+        }
+    }
+
 }
 
 dependencies {

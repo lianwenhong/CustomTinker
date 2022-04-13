@@ -1,0 +1,38 @@
+[
+    {
+        "merged": "/Users/lianwenhong/AndroidProjects/demos/CustomTinker/app/build/intermediates/res/merged/debug/layout_activity_second.xml.flat",
+        "source": "/Users/lianwenhong/AndroidProjects/demos/CustomTinker/app/src/main/res/layout/activity_second.xml"
+    },
+    {
+        "merged": "/Users/lianwenhong/AndroidProjects/demos/CustomTinker/app/build/intermediates/res/merged/debug/mipmap-xxxhdpi_universe.jpeg.flat",
+        "source": "/Users/lianwenhong/AndroidProjects/demos/CustomTinker/app/src/main/res/mipmap-xxxhdpi/universe.jpeg"
+    },
+    {
+        "merged": "/Users/lianwenhong/AndroidProjects/demos/CustomTinker/app/build/intermediates/res/merged/debug/layout_activity_main.xml.flat",
+        "source": "/Users/lianwenhong/AndroidProjects/demos/CustomTinker/app/src/main/res/layout/activity_main.xml"
+    },
+    {
+        "merged": "/Users/lianwenhong/AndroidProjects/demos/CustomTinker/app/build/intermediates/res/merged/debug/drawable_ic_launcher_background.xml.flat",
+        "source": "/Users/lianwenhong/AndroidProjects/demos/CustomTinker/app/src/main/res/drawable/ic_launcher_background.xml"
+    },
+    {
+        "merged": "/Users/lianwenhong/AndroidProjects/demos/CustomTinker/app/build/intermediates/res/merged/debug/mipmap-xxxhdpi_ic_launcher.png.flat",
+        "source": "/Users/lianwenhong/AndroidProjects/demos/CustomTinker/app/src/main/res/mipmap-xxxhdpi/ic_launcher.png"
+    },
+    {
+        "merged": "/Users/lianwenhong/AndroidProjects/demos/CustomTinker/app/build/intermediates/res/merged/debug/raw_patch_resource.apk.flat",
+        "source": "/Users/lianwenhong/AndroidProjects/demos/CustomTinker/app/src/main/res/raw/patch_resource.apk"
+    },
+    {
+        "merged": "/Users/lianwenhong/AndroidProjects/demos/CustomTinker/app/build/intermediates/res/merged/debug/mipmap-xxxhdpi_ic_launcher_round.png.flat",
+        "source": "/Users/lianwenhong/AndroidProjects/demos/CustomTinker/app/src/main/res/mipmap-xxxhdpi/ic_launcher_round.png"
+    },
+    {
+        "merged": "/Users/lianwenhong/AndroidProjects/demos/CustomTinker/app/build/intermediates/res/merged/debug/raw_patch.dex.flat",
+        "source": "/Users/lianwenhong/AndroidProjects/demos/CustomTinker/app/src/main/res/raw/patch.dex"
+    },
+    {
+        "merged": "/Users/lianwenhong/AndroidProjects/demos/CustomTinker/app/build/intermediates/res/merged/debug/drawable-anydpi-v24_ic_launcher_foreground.xml.flat",
+        "source": "/Users/lianwenhong/AndroidProjects/demos/CustomTinker/app/build/generated/res/pngs/debug/drawable-anydpi-v24/ic_launcher_foreground.xml"
+    }
+]

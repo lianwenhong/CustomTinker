@@ -1,0 +1,242 @@
+-- Merging decision tree log ---
+manifest
+ADDED from /Users/lianwenhong/AndroidProjects/demos/CustomTinker/app/src/main/AndroidManifest.xml:2:1-29:12
+INJECTED from /Users/lianwenhong/AndroidProjects/demos/CustomTinker/app/src/main/AndroidManifest.xml:2:1-29:12
+INJECTED from /Users/lianwenhong/AndroidProjects/demos/CustomTinker/app/src/main/AndroidManifest.xml:2:1-29:12
+INJECTED from /Users/lianwenhong/AndroidProjects/demos/CustomTinker/app/src/main/AndroidManifest.xml:2:1-29:12
+MERGED from [com.google.android.material:material:1.5.0] /Users/lianwenhong/.gradle/caches/transforms-2/files-2.1/c80d6b3c7f68adc991270f99ea1df159/material-1.5.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.constraintlayout:constraintlayout:2.1.3] /Users/lianwenhong/.gradle/caches/transforms-2/files-2.1/fec76ed921c64346c1391edf99320e15/constraintlayout-2.1.3/AndroidManifest.xml:2:1-11:12
+MERGED from [androidx.appcompat:appcompat:1.4.1] /Users/lianwenhong/.gradle/caches/transforms-2/files-2.1/3e811681103d67b92981716dcd0a2cc6/appcompat-1.4.1/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.viewpager2:viewpager2:1.0.0] /Users/lianwenhong/.gradle/caches/transforms-2/files-2.1/9a115c35b02494004f7c143f41a30caf/viewpager2-1.0.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.fragment:fragment:1.3.6] /Users/lianwenhong/.gradle/caches/transforms-2/files-2.1/19e60b4ada7759a46a083d4debbaa9f1/fragment-1.3.6/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.activity:activity:1.2.4] /Users/lianwenhong/.gradle/caches/transforms-2/files-2.1/761c8455f6e2879f8f092dfa6bfd9b9a/activity-1.2.4/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.appcompat:appcompat-resources:1.4.1] /Users/lianwenhong/.gradle/caches/transforms-2/files-2.1/da00dae0e674b2497b0bea3abd4af573/appcompat-resources-1.4.1/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.emoji2:emoji2-views-helper:1.0.0] /Users/lianwenhong/.gradle/caches/transforms-2/files-2.1/6f50b18f94263f35cf86fdca99e753ac/emoji2-views-helper-1.0.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.emoji2:emoji2:1.0.0] /Users/lianwenhong/.gradle/caches/transforms-2/files-2.1/e75ddd6a70c5973f333cbe28ae70d86e/emoji2-1.0.0/AndroidManifest.xml:17:1-37:12
+MERGED from [androidx.drawerlayout:drawerlayout:1.1.1] /Users/lianwenhong/.gradle/caches/transforms-2/files-2.1/db00efbe8d9a717de4514f23c068a943/drawerlayout-1.1.1/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.1.0] /Users/lianwenhong/.gradle/caches/transforms-2/files-2.1/9394999b53db0776fe3f8249aad3587d/coordinatorlayout-1.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.dynamicanimation:dynamicanimation:1.0.0] /Users/lianwenhong/.gradle/caches/transforms-2/files-2.1/9020a2ac8f508bec507f3d012a17f07e/dynamicanimation-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.transition:transition:1.2.0] /Users/lianwenhong/.gradle/caches/transforms-2/files-2.1/1479de5d7f22c3ece267d827a6741184/transition-1.2.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] /Users/lianwenhong/.gradle/caches/transforms-2/files-2.1/38ad24c77d3825c1552984c75e5adc5d/vectordrawable-animated-1.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] /Users/lianwenhong/.gradle/caches/transforms-2/files-2.1/3cbdcbb35b0e0577e5ea047a536b2ec4/vectordrawable-1.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.viewpager:viewpager:1.0.0] /Users/lianwenhong/.gradle/caches/transforms-2/files-2.1/d2f21cb5534168b7110403b662b77c6c/viewpager-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] /Users/lianwenhong/.gradle/caches/transforms-2/files-2.1/503d015c1318d8097e29ef6835a36a56/legacy-support-core-utils-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.loader:loader:1.0.0] /Users/lianwenhong/.gradle/caches/transforms-2/files-2.1/4faeb2925e1c7e1e75f59264d1defafa/loader-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.recyclerview:recyclerview:1.1.0] /Users/lianwenhong/.gradle/caches/transforms-2/files-2.1/0caaaf32c67cad283423af851bbb6f1b/recyclerview-1.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.customview:customview:1.1.0] /Users/lianwenhong/.gradle/caches/transforms-2/files-2.1/7b996aa49d617eba6c338a7db8232f1d/customview-1.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.core:core:1.7.0] /Users/lianwenhong/.gradle/caches/transforms-2/files-2.1/3d84df6f467d17bc97d73205fce32771/core-1.7.0/AndroidManifest.xml:17:1-26:12
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] /Users/lianwenhong/.gradle/caches/transforms-2/files-2.1/e740b28942b0b39b858ba338d447e2d0/cursoradapter-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:2.3.1] /Users/lianwenhong/.gradle/caches/transforms-2/files-2.1/9d7c986b869a895a1abb2f6094f90d18/lifecycle-viewmodel-savedstate-2.3.1/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.savedstate:savedstate:1.1.0] /Users/lianwenhong/.gradle/caches/transforms-2/files-2.1/a0d583c5630cc721ccafad54d1a968fe/savedstate-1.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.3.1] /Users/lianwenhong/.gradle/caches/transforms-2/files-2.1/3494f561912e586dfb53da986c84a5a1/lifecycle-viewmodel-2.3.1/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.cardview:cardview:1.0.0] /Users/lianwenhong/.gradle/caches/transforms-2/files-2.1/6473fbce5ae2a155aef156adb3604c3f/cardview-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] /Users/lianwenhong/.gradle/caches/transforms-2/files-2.1/3457d54110bc575cf705b1a255849884/versionedparcelable-1.1.1/AndroidManifest.xml:17:1-27:12
+MERGED from [androidx.lifecycle:lifecycle-process:2.4.0] /Users/lianwenhong/.gradle/caches/transforms-2/files-2.1/489deb9e302b5ad307a675d598c794a9/lifecycle-process-2.4.0/AndroidManifest.xml:17:1-37:12
+MERGED from [androidx.startup:startup-runtime:1.0.0] /Users/lianwenhong/.gradle/caches/transforms-2/files-2.1/5a52d24f05e0bcf6c67dbfc9eef92c69/startup-runtime-1.0.0/AndroidManifest.xml:17:1-33:12
+MERGED from [androidx.tracing:tracing:1.0.0] /Users/lianwenhong/.gradle/caches/transforms-2/files-2.1/d46645c4812a3dc8e8ea41fd855fab27/tracing-1.0.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] /Users/lianwenhong/.gradle/caches/transforms-2/files-2.1/a61622bd9f75599943ae0cbf514e09af/lifecycle-livedata-2.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.3.1] /Users/lianwenhong/.gradle/caches/transforms-2/files-2.1/0eeed833a73118ac052b39884d0ff26e/lifecycle-livedata-core-2.3.1/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.4.0] /Users/lianwenhong/.gradle/caches/transforms-2/files-2.1/e04808648feae5fc1e5f4ff6a8980d61/lifecycle-runtime-2.4.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.arch.core:core-runtime:2.1.0] /Users/lianwenhong/.gradle/caches/transforms-2/files-2.1/113b590d4e143d68a4371d1a5682438b/core-runtime-2.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.interpolator:interpolator:1.0.0] /Users/lianwenhong/.gradle/caches/transforms-2/files-2.1/818f3b3dddcab3268986773b1c2a625a/interpolator-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.documentfile:documentfile:1.0.0] /Users/lianwenhong/.gradle/caches/transforms-2/files-2.1/9bf0450dd36e0e0219437d02465a3a93/documentfile-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] /Users/lianwenhong/.gradle/caches/transforms-2/files-2.1/1e9c1cad460d2e48829d31c633b22f51/localbroadcastmanager-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.print:print:1.0.0] /Users/lianwenhong/.gradle/caches/transforms-2/files-2.1/3a7f134cb8d93ef64fab20fc77489405/print-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.annotation:annotation-experimental:1.1.0] /Users/lianwenhong/.gradle/caches/transforms-2/files-2.1/1a9d0f74d45934e5472ac31d8d39484c/annotation-experimental-1.1.0/AndroidManifest.xml:17:1-24:12
+INJECTED from /Users/lianwenhong/AndroidProjects/demos/CustomTinker/app/src/main/AndroidManifest.xml:2:1-29:12
+INJECTED from /Users/lianwenhong/AndroidProjects/demos/CustomTinker/app/src/main/AndroidManifest.xml:2:1-29:12
+INJECTED from /Users/lianwenhong/AndroidProjects/demos/CustomTinker/app/src/main/AndroidManifest.xml:2:1-29:12
+	package
+		ADDED from /Users/lianwenhong/AndroidProjects/demos/CustomTinker/app/src/main/AndroidManifest.xml:4:5-43
+		INJECTED from /Users/lianwenhong/AndroidProjects/demos/CustomTinker/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/lianwenhong/AndroidProjects/demos/CustomTinker/app/src/main/AndroidManifest.xml
+	android:versionName
+		INJECTED from /Users/lianwenhong/AndroidProjects/demos/CustomTinker/app/src/main/AndroidManifest.xml
+		ADDED from /Users/lianwenhong/AndroidProjects/demos/CustomTinker/app/src/main/AndroidManifest.xml:2:1-29:12
+		INJECTED from /Users/lianwenhong/AndroidProjects/demos/CustomTinker/app/src/main/AndroidManifest.xml
+	xmlns:tools
+		ADDED from /Users/lianwenhong/AndroidProjects/demos/CustomTinker/app/src/main/AndroidManifest.xml:3:5-51
+	android:versionCode
+		INJECTED from /Users/lianwenhong/AndroidProjects/demos/CustomTinker/app/src/main/AndroidManifest.xml
+		ADDED from /Users/lianwenhong/AndroidProjects/demos/CustomTinker/app/src/main/AndroidManifest.xml:2:1-29:12
+		INJECTED from /Users/lianwenhong/AndroidProjects/demos/CustomTinker/app/src/main/AndroidManifest.xml
+	xmlns:android
+		ADDED from /Users/lianwenhong/AndroidProjects/demos/CustomTinker/app/src/main/AndroidManifest.xml:2:11-69
+uses-permission#android.permission.READ_EXTERNAL_STORAGE
+ADDED from /Users/lianwenhong/AndroidProjects/demos/CustomTinker/app/src/main/AndroidManifest.xml:6:5-80
+	android:name
+		ADDED from /Users/lianwenhong/AndroidProjects/demos/CustomTinker/app/src/main/AndroidManifest.xml:6:22-77
+uses-permission#android.permission.MOUNT_UNMOUNT_FILESYSTEMS
+ADDED from /Users/lianwenhong/AndroidProjects/demos/CustomTinker/app/src/main/AndroidManifest.xml:7:5-8:71
+	android:name
+		ADDED from /Users/lianwenhong/AndroidProjects/demos/CustomTinker/app/src/main/AndroidManifest.xml:8:9-68
+application
+ADDED from /Users/lianwenhong/AndroidProjects/demos/CustomTinker/app/src/main/AndroidManifest.xml:10:5-27:19
+MERGED from [com.google.android.material:material:1.5.0] /Users/lianwenhong/.gradle/caches/transforms-2/files-2.1/c80d6b3c7f68adc991270f99ea1df159/material-1.5.0/AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.material:material:1.5.0] /Users/lianwenhong/.gradle/caches/transforms-2/files-2.1/c80d6b3c7f68adc991270f99ea1df159/material-1.5.0/AndroidManifest.xml:22:5-20
+MERGED from [androidx.constraintlayout:constraintlayout:2.1.3] /Users/lianwenhong/.gradle/caches/transforms-2/files-2.1/fec76ed921c64346c1391edf99320e15/constraintlayout-2.1.3/AndroidManifest.xml:9:5-20
+MERGED from [androidx.constraintlayout:constraintlayout:2.1.3] /Users/lianwenhong/.gradle/caches/transforms-2/files-2.1/fec76ed921c64346c1391edf99320e15/constraintlayout-2.1.3/AndroidManifest.xml:9:5-20
+MERGED from [androidx.emoji2:emoji2:1.0.0] /Users/lianwenhong/.gradle/caches/transforms-2/files-2.1/e75ddd6a70c5973f333cbe28ae70d86e/emoji2-1.0.0/AndroidManifest.xml:25:5-35:19
+MERGED from [androidx.emoji2:emoji2:1.0.0] /Users/lianwenhong/.gradle/caches/transforms-2/files-2.1/e75ddd6a70c5973f333cbe28ae70d86e/emoji2-1.0.0/AndroidManifest.xml:25:5-35:19
+MERGED from [androidx.core:core:1.7.0] /Users/lianwenhong/.gradle/caches/transforms-2/files-2.1/3d84df6f467d17bc97d73205fce32771/core-1.7.0/AndroidManifest.xml:24:5-89
+MERGED from [androidx.core:core:1.7.0] /Users/lianwenhong/.gradle/caches/transforms-2/files-2.1/3d84df6f467d17bc97d73205fce32771/core-1.7.0/AndroidManifest.xml:24:5-89
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] /Users/lianwenhong/.gradle/caches/transforms-2/files-2.1/3457d54110bc575cf705b1a255849884/versionedparcelable-1.1.1/AndroidManifest.xml:24:5-25:19
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] /Users/lianwenhong/.gradle/caches/transforms-2/files-2.1/3457d54110bc575cf705b1a255849884/versionedparcelable-1.1.1/AndroidManifest.xml:24:5-25:19
+MERGED from [androidx.lifecycle:lifecycle-process:2.4.0] /Users/lianwenhong/.gradle/caches/transforms-2/files-2.1/489deb9e302b5ad307a675d598c794a9/lifecycle-process-2.4.0/AndroidManifest.xml:25:5-35:19
+MERGED from [androidx.lifecycle:lifecycle-process:2.4.0] /Users/lianwenhong/.gradle/caches/transforms-2/files-2.1/489deb9e302b5ad307a675d598c794a9/lifecycle-process-2.4.0/AndroidManifest.xml:25:5-35:19
+MERGED from [androidx.startup:startup-runtime:1.0.0] /Users/lianwenhong/.gradle/caches/transforms-2/files-2.1/5a52d24f05e0bcf6c67dbfc9eef92c69/startup-runtime-1.0.0/AndroidManifest.xml:25:5-31:19
+MERGED from [androidx.startup:startup-runtime:1.0.0] /Users/lianwenhong/.gradle/caches/transforms-2/files-2.1/5a52d24f05e0bcf6c67dbfc9eef92c69/startup-runtime-1.0.0/AndroidManifest.xml:25:5-31:19
+	android:requestLegacyExternalStorage
+		ADDED from /Users/lianwenhong/AndroidProjects/demos/CustomTinker/app/src/main/AndroidManifest.xml:15:9-52
+	android:appComponentFactory
+		ADDED from [androidx.core:core:1.7.0] /Users/lianwenhong/.gradle/caches/transforms-2/files-2.1/3d84df6f467d17bc97d73205fce32771/core-1.7.0/AndroidManifest.xml:24:18-86
+	android:supportsRtl
+		ADDED from /Users/lianwenhong/AndroidProjects/demos/CustomTinker/app/src/main/AndroidManifest.xml:17:9-35
+	android:label
+		ADDED from /Users/lianwenhong/AndroidProjects/demos/CustomTinker/app/src/main/AndroidManifest.xml:14:9-41
+	android:roundIcon
+		ADDED from /Users/lianwenhong/AndroidProjects/demos/CustomTinker/app/src/main/AndroidManifest.xml:16:9-54
+	android:icon
+		ADDED from /Users/lianwenhong/AndroidProjects/demos/CustomTinker/app/src/main/AndroidManifest.xml:13:9-43
+	android:allowBackup
+		ADDED from /Users/lianwenhong/AndroidProjects/demos/CustomTinker/app/src/main/AndroidManifest.xml:12:9-35
+	android:theme
+		ADDED from /Users/lianwenhong/AndroidProjects/demos/CustomTinker/app/src/main/AndroidManifest.xml:18:9-50
+	android:name
+		ADDED from /Users/lianwenhong/AndroidProjects/demos/CustomTinker/app/src/main/AndroidManifest.xml:11:9-38
+activity#com.lianwenhong.customtinker.MainActivity
+ADDED from /Users/lianwenhong/AndroidProjects/demos/CustomTinker/app/src/main/AndroidManifest.xml:19:9-25:20
+	android:name
+		ADDED from /Users/lianwenhong/AndroidProjects/demos/CustomTinker/app/src/main/AndroidManifest.xml:19:19-47
+intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
+ADDED from /Users/lianwenhong/AndroidProjects/demos/CustomTinker/app/src/main/AndroidManifest.xml:20:13-24:29
+action#android.intent.action.MAIN
+ADDED from /Users/lianwenhong/AndroidProjects/demos/CustomTinker/app/src/main/AndroidManifest.xml:21:17-69
+	android:name
+		ADDED from /Users/lianwenhong/AndroidProjects/demos/CustomTinker/app/src/main/AndroidManifest.xml:21:25-66
+category#android.intent.category.LAUNCHER
+ADDED from /Users/lianwenhong/AndroidProjects/demos/CustomTinker/app/src/main/AndroidManifest.xml:23:17-77
+	android:name
+		ADDED from /Users/lianwenhong/AndroidProjects/demos/CustomTinker/app/src/main/AndroidManifest.xml:23:27-74
+activity#com.lianwenhong.customtinker.SecondActivity
+ADDED from /Users/lianwenhong/AndroidProjects/demos/CustomTinker/app/src/main/AndroidManifest.xml:26:9-51
+	android:name
+		ADDED from /Users/lianwenhong/AndroidProjects/demos/CustomTinker/app/src/main/AndroidManifest.xml:26:19-49
+uses-sdk
+INJECTED from /Users/lianwenhong/AndroidProjects/demos/CustomTinker/app/src/main/AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from /Users/lianwenhong/AndroidProjects/demos/CustomTinker/app/src/main/AndroidManifest.xml
+INJECTED from /Users/lianwenhong/AndroidProjects/demos/CustomTinker/app/src/main/AndroidManifest.xml
+MERGED from [com.google.android.material:material:1.5.0] /Users/lianwenhong/.gradle/caches/transforms-2/files-2.1/c80d6b3c7f68adc991270f99ea1df159/material-1.5.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.material:material:1.5.0] /Users/lianwenhong/.gradle/caches/transforms-2/files-2.1/c80d6b3c7f68adc991270f99ea1df159/material-1.5.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.constraintlayout:constraintlayout:2.1.3] /Users/lianwenhong/.gradle/caches/transforms-2/files-2.1/fec76ed921c64346c1391edf99320e15/constraintlayout-2.1.3/AndroidManifest.xml:5:5-7:41
+MERGED from [androidx.constraintlayout:constraintlayout:2.1.3] /Users/lianwenhong/.gradle/caches/transforms-2/files-2.1/fec76ed921c64346c1391edf99320e15/constraintlayout-2.1.3/AndroidManifest.xml:5:5-7:41
+MERGED from [androidx.appcompat:appcompat:1.4.1] /Users/lianwenhong/.gradle/caches/transforms-2/files-2.1/3e811681103d67b92981716dcd0a2cc6/appcompat-1.4.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.appcompat:appcompat:1.4.1] /Users/lianwenhong/.gradle/caches/transforms-2/files-2.1/3e811681103d67b92981716dcd0a2cc6/appcompat-1.4.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.viewpager2:viewpager2:1.0.0] /Users/lianwenhong/.gradle/caches/transforms-2/files-2.1/9a115c35b02494004f7c143f41a30caf/viewpager2-1.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.viewpager2:viewpager2:1.0.0] /Users/lianwenhong/.gradle/caches/transforms-2/files-2.1/9a115c35b02494004f7c143f41a30caf/viewpager2-1.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.fragment:fragment:1.3.6] /Users/lianwenhong/.gradle/caches/transforms-2/files-2.1/19e60b4ada7759a46a083d4debbaa9f1/fragment-1.3.6/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.fragment:fragment:1.3.6] /Users/lianwenhong/.gradle/caches/transforms-2/files-2.1/19e60b4ada7759a46a083d4debbaa9f1/fragment-1.3.6/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.activity:activity:1.2.4] /Users/lianwenhong/.gradle/caches/transforms-2/files-2.1/761c8455f6e2879f8f092dfa6bfd9b9a/activity-1.2.4/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.activity:activity:1.2.4] /Users/lianwenhong/.gradle/caches/transforms-2/files-2.1/761c8455f6e2879f8f092dfa6bfd9b9a/activity-1.2.4/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.appcompat:appcompat-resources:1.4.1] /Users/lianwenhong/.gradle/caches/transforms-2/files-2.1/da00dae0e674b2497b0bea3abd4af573/appcompat-resources-1.4.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.appcompat:appcompat-resources:1.4.1] /Users/lianwenhong/.gradle/caches/transforms-2/files-2.1/da00dae0e674b2497b0bea3abd4af573/appcompat-resources-1.4.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.emoji2:emoji2-views-helper:1.0.0] /Users/lianwenhong/.gradle/caches/transforms-2/files-2.1/6f50b18f94263f35cf86fdca99e753ac/emoji2-views-helper-1.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.emoji2:emoji2-views-helper:1.0.0] /Users/lianwenhong/.gradle/caches/transforms-2/files-2.1/6f50b18f94263f35cf86fdca99e753ac/emoji2-views-helper-1.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.emoji2:emoji2:1.0.0] /Users/lianwenhong/.gradle/caches/transforms-2/files-2.1/e75ddd6a70c5973f333cbe28ae70d86e/emoji2-1.0.0/AndroidManifest.xml:21:5-23:41
+MERGED from [androidx.emoji2:emoji2:1.0.0] /Users/lianwenhong/.gradle/caches/transforms-2/files-2.1/e75ddd6a70c5973f333cbe28ae70d86e/emoji2-1.0.0/AndroidManifest.xml:21:5-23:41
+MERGED from [androidx.drawerlayout:drawerlayout:1.1.1] /Users/lianwenhong/.gradle/caches/transforms-2/files-2.1/db00efbe8d9a717de4514f23c068a943/drawerlayout-1.1.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.drawerlayout:drawerlayout:1.1.1] /Users/lianwenhong/.gradle/caches/transforms-2/files-2.1/db00efbe8d9a717de4514f23c068a943/drawerlayout-1.1.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.1.0] /Users/lianwenhong/.gradle/caches/transforms-2/files-2.1/9394999b53db0776fe3f8249aad3587d/coordinatorlayout-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.1.0] /Users/lianwenhong/.gradle/caches/transforms-2/files-2.1/9394999b53db0776fe3f8249aad3587d/coordinatorlayout-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.dynamicanimation:dynamicanimation:1.0.0] /Users/lianwenhong/.gradle/caches/transforms-2/files-2.1/9020a2ac8f508bec507f3d012a17f07e/dynamicanimation-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.dynamicanimation:dynamicanimation:1.0.0] /Users/lianwenhong/.gradle/caches/transforms-2/files-2.1/9020a2ac8f508bec507f3d012a17f07e/dynamicanimation-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.transition:transition:1.2.0] /Users/lianwenhong/.gradle/caches/transforms-2/files-2.1/1479de5d7f22c3ece267d827a6741184/transition-1.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.transition:transition:1.2.0] /Users/lianwenhong/.gradle/caches/transforms-2/files-2.1/1479de5d7f22c3ece267d827a6741184/transition-1.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] /Users/lianwenhong/.gradle/caches/transforms-2/files-2.1/38ad24c77d3825c1552984c75e5adc5d/vectordrawable-animated-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] /Users/lianwenhong/.gradle/caches/transforms-2/files-2.1/38ad24c77d3825c1552984c75e5adc5d/vectordrawable-animated-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] /Users/lianwenhong/.gradle/caches/transforms-2/files-2.1/3cbdcbb35b0e0577e5ea047a536b2ec4/vectordrawable-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] /Users/lianwenhong/.gradle/caches/transforms-2/files-2.1/3cbdcbb35b0e0577e5ea047a536b2ec4/vectordrawable-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.viewpager:viewpager:1.0.0] /Users/lianwenhong/.gradle/caches/transforms-2/files-2.1/d2f21cb5534168b7110403b662b77c6c/viewpager-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.viewpager:viewpager:1.0.0] /Users/lianwenhong/.gradle/caches/transforms-2/files-2.1/d2f21cb5534168b7110403b662b77c6c/viewpager-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] /Users/lianwenhong/.gradle/caches/transforms-2/files-2.1/503d015c1318d8097e29ef6835a36a56/legacy-support-core-utils-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] /Users/lianwenhong/.gradle/caches/transforms-2/files-2.1/503d015c1318d8097e29ef6835a36a56/legacy-support-core-utils-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.loader:loader:1.0.0] /Users/lianwenhong/.gradle/caches/transforms-2/files-2.1/4faeb2925e1c7e1e75f59264d1defafa/loader-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.loader:loader:1.0.0] /Users/lianwenhong/.gradle/caches/transforms-2/files-2.1/4faeb2925e1c7e1e75f59264d1defafa/loader-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.recyclerview:recyclerview:1.1.0] /Users/lianwenhong/.gradle/caches/transforms-2/files-2.1/0caaaf32c67cad283423af851bbb6f1b/recyclerview-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.recyclerview:recyclerview:1.1.0] /Users/lianwenhong/.gradle/caches/transforms-2/files-2.1/0caaaf32c67cad283423af851bbb6f1b/recyclerview-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.customview:customview:1.1.0] /Users/lianwenhong/.gradle/caches/transforms-2/files-2.1/7b996aa49d617eba6c338a7db8232f1d/customview-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.customview:customview:1.1.0] /Users/lianwenhong/.gradle/caches/transforms-2/files-2.1/7b996aa49d617eba6c338a7db8232f1d/customview-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.core:core:1.7.0] /Users/lianwenhong/.gradle/caches/transforms-2/files-2.1/3d84df6f467d17bc97d73205fce32771/core-1.7.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.core:core:1.7.0] /Users/lianwenhong/.gradle/caches/transforms-2/files-2.1/3d84df6f467d17bc97d73205fce32771/core-1.7.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] /Users/lianwenhong/.gradle/caches/transforms-2/files-2.1/e740b28942b0b39b858ba338d447e2d0/cursoradapter-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] /Users/lianwenhong/.gradle/caches/transforms-2/files-2.1/e740b28942b0b39b858ba338d447e2d0/cursoradapter-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:2.3.1] /Users/lianwenhong/.gradle/caches/transforms-2/files-2.1/9d7c986b869a895a1abb2f6094f90d18/lifecycle-viewmodel-savedstate-2.3.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:2.3.1] /Users/lianwenhong/.gradle/caches/transforms-2/files-2.1/9d7c986b869a895a1abb2f6094f90d18/lifecycle-viewmodel-savedstate-2.3.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.savedstate:savedstate:1.1.0] /Users/lianwenhong/.gradle/caches/transforms-2/files-2.1/a0d583c5630cc721ccafad54d1a968fe/savedstate-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.savedstate:savedstate:1.1.0] /Users/lianwenhong/.gradle/caches/transforms-2/files-2.1/a0d583c5630cc721ccafad54d1a968fe/savedstate-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.3.1] /Users/lianwenhong/.gradle/caches/transforms-2/files-2.1/3494f561912e586dfb53da986c84a5a1/lifecycle-viewmodel-2.3.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.3.1] /Users/lianwenhong/.gradle/caches/transforms-2/files-2.1/3494f561912e586dfb53da986c84a5a1/lifecycle-viewmodel-2.3.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.cardview:cardview:1.0.0] /Users/lianwenhong/.gradle/caches/transforms-2/files-2.1/6473fbce5ae2a155aef156adb3604c3f/cardview-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.cardview:cardview:1.0.0] /Users/lianwenhong/.gradle/caches/transforms-2/files-2.1/6473fbce5ae2a155aef156adb3604c3f/cardview-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] /Users/lianwenhong/.gradle/caches/transforms-2/files-2.1/3457d54110bc575cf705b1a255849884/versionedparcelable-1.1.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] /Users/lianwenhong/.gradle/caches/transforms-2/files-2.1/3457d54110bc575cf705b1a255849884/versionedparcelable-1.1.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-process:2.4.0] /Users/lianwenhong/.gradle/caches/transforms-2/files-2.1/489deb9e302b5ad307a675d598c794a9/lifecycle-process-2.4.0/AndroidManifest.xml:21:5-23:41
+MERGED from [androidx.lifecycle:lifecycle-process:2.4.0] /Users/lianwenhong/.gradle/caches/transforms-2/files-2.1/489deb9e302b5ad307a675d598c794a9/lifecycle-process-2.4.0/AndroidManifest.xml:21:5-23:41
+MERGED from [androidx.startup:startup-runtime:1.0.0] /Users/lianwenhong/.gradle/caches/transforms-2/files-2.1/5a52d24f05e0bcf6c67dbfc9eef92c69/startup-runtime-1.0.0/AndroidManifest.xml:21:5-23:41
+MERGED from [androidx.startup:startup-runtime:1.0.0] /Users/lianwenhong/.gradle/caches/transforms-2/files-2.1/5a52d24f05e0bcf6c67dbfc9eef92c69/startup-runtime-1.0.0/AndroidManifest.xml:21:5-23:41
+MERGED from [androidx.tracing:tracing:1.0.0] /Users/lianwenhong/.gradle/caches/transforms-2/files-2.1/d46645c4812a3dc8e8ea41fd855fab27/tracing-1.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.tracing:tracing:1.0.0] /Users/lianwenhong/.gradle/caches/transforms-2/files-2.1/d46645c4812a3dc8e8ea41fd855fab27/tracing-1.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] /Users/lianwenhong/.gradle/caches/transforms-2/files-2.1/a61622bd9f75599943ae0cbf514e09af/lifecycle-livedata-2.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] /Users/lianwenhong/.gradle/caches/transforms-2/files-2.1/a61622bd9f75599943ae0cbf514e09af/lifecycle-livedata-2.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.3.1] /Users/lianwenhong/.gradle/caches/transforms-2/files-2.1/0eeed833a73118ac052b39884d0ff26e/lifecycle-livedata-core-2.3.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.3.1] /Users/lianwenhong/.gradle/caches/transforms-2/files-2.1/0eeed833a73118ac052b39884d0ff26e/lifecycle-livedata-core-2.3.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.4.0] /Users/lianwenhong/.gradle/caches/transforms-2/files-2.1/e04808648feae5fc1e5f4ff6a8980d61/lifecycle-runtime-2.4.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.4.0] /Users/lianwenhong/.gradle/caches/transforms-2/files-2.1/e04808648feae5fc1e5f4ff6a8980d61/lifecycle-runtime-2.4.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.arch.core:core-runtime:2.1.0] /Users/lianwenhong/.gradle/caches/transforms-2/files-2.1/113b590d4e143d68a4371d1a5682438b/core-runtime-2.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.arch.core:core-runtime:2.1.0] /Users/lianwenhong/.gradle/caches/transforms-2/files-2.1/113b590d4e143d68a4371d1a5682438b/core-runtime-2.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.interpolator:interpolator:1.0.0] /Users/lianwenhong/.gradle/caches/transforms-2/files-2.1/818f3b3dddcab3268986773b1c2a625a/interpolator-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.interpolator:interpolator:1.0.0] /Users/lianwenhong/.gradle/caches/transforms-2/files-2.1/818f3b3dddcab3268986773b1c2a625a/interpolator-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.documentfile:documentfile:1.0.0] /Users/lianwenhong/.gradle/caches/transforms-2/files-2.1/9bf0450dd36e0e0219437d02465a3a93/documentfile-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.documentfile:documentfile:1.0.0] /Users/lianwenhong/.gradle/caches/transforms-2/files-2.1/9bf0450dd36e0e0219437d02465a3a93/documentfile-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] /Users/lianwenhong/.gradle/caches/transforms-2/files-2.1/1e9c1cad460d2e48829d31c633b22f51/localbroadcastmanager-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] /Users/lianwenhong/.gradle/caches/transforms-2/files-2.1/1e9c1cad460d2e48829d31c633b22f51/localbroadcastmanager-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.print:print:1.0.0] /Users/lianwenhong/.gradle/caches/transforms-2/files-2.1/3a7f134cb8d93ef64fab20fc77489405/print-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.print:print:1.0.0] /Users/lianwenhong/.gradle/caches/transforms-2/files-2.1/3a7f134cb8d93ef64fab20fc77489405/print-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.annotation:annotation-experimental:1.1.0] /Users/lianwenhong/.gradle/caches/transforms-2/files-2.1/1a9d0f74d45934e5472ac31d8d39484c/annotation-experimental-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.annotation:annotation-experimental:1.1.0] /Users/lianwenhong/.gradle/caches/transforms-2/files-2.1/1a9d0f74d45934e5472ac31d8d39484c/annotation-experimental-1.1.0/AndroidManifest.xml:20:5-22:41
+INJECTED from /Users/lianwenhong/AndroidProjects/demos/CustomTinker/app/src/main/AndroidManifest.xml
+INJECTED from /Users/lianwenhong/AndroidProjects/demos/CustomTinker/app/src/main/AndroidManifest.xml
+	android:targetSdkVersion
+		INJECTED from /Users/lianwenhong/AndroidProjects/demos/CustomTinker/app/src/main/AndroidManifest.xml
+		ADDED from /Users/lianwenhong/AndroidProjects/demos/CustomTinker/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/lianwenhong/AndroidProjects/demos/CustomTinker/app/src/main/AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from /Users/lianwenhong/AndroidProjects/demos/CustomTinker/app/src/main/AndroidManifest.xml
+		ADDED from /Users/lianwenhong/AndroidProjects/demos/CustomTinker/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/lianwenhong/AndroidProjects/demos/CustomTinker/app/src/main/AndroidManifest.xml
+provider#androidx.startup.InitializationProvider
+ADDED from [androidx.emoji2:emoji2:1.0.0] /Users/lianwenhong/.gradle/caches/transforms-2/files-2.1/e75ddd6a70c5973f333cbe28ae70d86e/emoji2-1.0.0/AndroidManifest.xml:26:9-34:20
+MERGED from [androidx.lifecycle:lifecycle-process:2.4.0] /Users/lianwenhong/.gradle/caches/transforms-2/files-2.1/489deb9e302b5ad307a675d598c794a9/lifecycle-process-2.4.0/AndroidManifest.xml:26:9-34:20
+MERGED from [androidx.lifecycle:lifecycle-process:2.4.0] /Users/lianwenhong/.gradle/caches/transforms-2/files-2.1/489deb9e302b5ad307a675d598c794a9/lifecycle-process-2.4.0/AndroidManifest.xml:26:9-34:20
+MERGED from [androidx.startup:startup-runtime:1.0.0] /Users/lianwenhong/.gradle/caches/transforms-2/files-2.1/5a52d24f05e0bcf6c67dbfc9eef92c69/startup-runtime-1.0.0/AndroidManifest.xml:26:9-30:34
+MERGED from [androidx.startup:startup-runtime:1.0.0] /Users/lianwenhong/.gradle/caches/transforms-2/files-2.1/5a52d24f05e0bcf6c67dbfc9eef92c69/startup-runtime-1.0.0/AndroidManifest.xml:26:9-30:34
+	tools:node
+		ADDED from [androidx.emoji2:emoji2:1.0.0] /Users/lianwenhong/.gradle/caches/transforms-2/files-2.1/e75ddd6a70c5973f333cbe28ae70d86e/emoji2-1.0.0/AndroidManifest.xml:30:13-31
+	android:authorities
+		ADDED from [androidx.emoji2:emoji2:1.0.0] /Users/lianwenhong/.gradle/caches/transforms-2/files-2.1/e75ddd6a70c5973f333cbe28ae70d86e/emoji2-1.0.0/AndroidManifest.xml:28:13-68
+	android:exported
+		ADDED from [androidx.emoji2:emoji2:1.0.0] /Users/lianwenhong/.gradle/caches/transforms-2/files-2.1/e75ddd6a70c5973f333cbe28ae70d86e/emoji2-1.0.0/AndroidManifest.xml:29:13-37
+	android:name
+		ADDED from [androidx.emoji2:emoji2:1.0.0] /Users/lianwenhong/.gradle/caches/transforms-2/files-2.1/e75ddd6a70c5973f333cbe28ae70d86e/emoji2-1.0.0/AndroidManifest.xml:27:13-67
+meta-data#androidx.emoji2.text.EmojiCompatInitializer
+ADDED from [androidx.emoji2:emoji2:1.0.0] /Users/lianwenhong/.gradle/caches/transforms-2/files-2.1/e75ddd6a70c5973f333cbe28ae70d86e/emoji2-1.0.0/AndroidManifest.xml:31:13-33:52
+	android:value
+		ADDED from [androidx.emoji2:emoji2:1.0.0] /Users/lianwenhong/.gradle/caches/transforms-2/files-2.1/e75ddd6a70c5973f333cbe28ae70d86e/emoji2-1.0.0/AndroidManifest.xml:33:17-49
+	android:name
+		ADDED from [androidx.emoji2:emoji2:1.0.0] /Users/lianwenhong/.gradle/caches/transforms-2/files-2.1/e75ddd6a70c5973f333cbe28ae70d86e/emoji2-1.0.0/AndroidManifest.xml:32:17-75
+meta-data#androidx.lifecycle.ProcessLifecycleInitializer
+ADDED from [androidx.lifecycle:lifecycle-process:2.4.0] /Users/lianwenhong/.gradle/caches/transforms-2/files-2.1/489deb9e302b5ad307a675d598c794a9/lifecycle-process-2.4.0/AndroidManifest.xml:31:13-33:52
+	android:value
+		ADDED from [androidx.lifecycle:lifecycle-process:2.4.0] /Users/lianwenhong/.gradle/caches/transforms-2/files-2.1/489deb9e302b5ad307a675d598c794a9/lifecycle-process-2.4.0/AndroidManifest.xml:33:17-49
+	android:name
+		ADDED from [androidx.lifecycle:lifecycle-process:2.4.0] /Users/lianwenhong/.gradle/caches/transforms-2/files-2.1/489deb9e302b5ad307a675d598c794a9/lifecycle-process-2.4.0/AndroidManifest.xml:32:17-78

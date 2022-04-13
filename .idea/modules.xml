@@ -4,6 +4,7 @@
     <modules>
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/CustomTinker.iml" filepath="$PROJECT_DIR$/.idea/modules/CustomTinker.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/CustomTinker.app.iml" filepath="$PROJECT_DIR$/.idea/modules/app/CustomTinker.app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/CustomTinker.buildSrc.iml" filepath="$PROJECT_DIR$/.idea/modules/CustomTinker.buildSrc.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/resource/CustomTinker.resource.iml" filepath="$PROJECT_DIR$/.idea/modules/resource/CustomTinker.resource.iml" />
     </modules>
   </component>

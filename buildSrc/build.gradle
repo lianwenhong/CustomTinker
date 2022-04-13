@@ -1,0 +1,23 @@
+apply plugin: 'groovy'
+sourceSets {
+    main {
+        groovy {
+            srcDir 'src/main/groovy'
+        }
+        resources {
+            srcDir 'src/main/resources'
+        }
+    }
+}
+
+//apply plugin: 'java-library'
+//sourceSets {
+//    main {
+//        java {
+//            srcDir 'src/main/java'
+//        }
+//        resources {
+//            srcDir 'src/main/resources'
+//        }
+//    }
+//}

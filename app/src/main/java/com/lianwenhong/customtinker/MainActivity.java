@@ -1,13 +1,12 @@
 package com.lianwenhong.customtinker;
 
+import android.content.Intent;
+import android.view.View;
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.os.Bundle;
-import android.util.Log;
 import android.widget.ImageView;
 import android.widget.TextView;
-
-import java.io.*;
 
 public class MainActivity extends AppCompatActivity {
 
@@ -23,15 +22,22 @@ public class MainActivity extends AppCompatActivity {
         img.setImageResource(R.mipmap.universe);
         tv = findViewById(R.id.id_tv_hello);
         tv.setText(R.string.hello_world);
-//        btn = findViewById(R.id.id_btn_change);
-//        btn.setOnClickListener(new View.OnClickListener() {
-//            @Override
-//            public void onClick(View view) {
-//                changeSkin();
-//                Intent intent = new Intent(MainActivity.this, MainActivity.class);
-//                startActivity(intent);
-//            }
-//        });
+        tv.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(MainActivity.this, SecondActivity.class);
+                startActivity(intent);
+            }
+        });
+
+//        try {
+////            HotFix.installResource2(getApplicationContext(), "/sdcard/patch_resource.apk");
+//            HotFix.installResource1(getApplication(), "/sdcard/patch_resource.apk");
+//        } /*catch (IllegalAccessException e) {
+//            e.printStackTrace();
+//        } */catch (ClassNotFoundException e) {
+//            e.printStackTrace();
+//        }
 
         Utils.doLogic(this);
     }
